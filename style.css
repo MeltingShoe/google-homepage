@@ -40,9 +40,6 @@
 }
 /*end of navbar style*/
 /*begin content style*/
-#content{
-
-}
 #logo{
 	position: fixed;
 	top: 24.5%;
@@ -115,5 +112,55 @@
 }
 /*end of content style*/
 #footer{
-	
+	position: fixed;
+	vertical-align: bottom;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+}
+#leftfoot{
+	padding 0;
+	margin: 0;
+	position: fixed;
+    bottom: 13px;
+    left: 3px;
+}
+#rightfoot{
+	padding 0;
+	margin: 0;
+	position: fixed;
+    bottom: 13px;
+    right: 3px;
+}
+#leftfoot a{
+	display: block;
+	text-decoration: none;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+#rightfoot a{
+	display: block;
+	text-decoration: none;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+#leftfoot li{
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 27px;
+}
+#rightfoot li{
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 27px;
+}
+#leftfoot a:hover{
+	text-decoration: underline;
+}
+#rightfoot a:hover{
+	text-decoration: underline;
 }
