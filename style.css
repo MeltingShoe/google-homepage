@@ -1,3 +1,4 @@
+/*Start of Navbar Style*/
 #navbar{
 	padding 0;
 	margin: 0;
@@ -37,7 +38,26 @@
 	padding-right: 13px;
 	vertical-align: middle;
 }
+/*end of navbar style*/
+
 #content{
+
+}
+#logo{
+	position: fixed;
+	top: 24.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#textbar{
+	position: fixed;
+	top: 33.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 568px;
+	height: 26px;
+	border:solid 1px #d9d9d9;
+	border-top:solid 1px #c0c0c0;
 
 }
 #footer{
