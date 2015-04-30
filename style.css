@@ -58,7 +58,30 @@
 	height: 26px;
 	border:solid 1px #d9d9d9;
 	border-top:solid 1px #c0c0c0;
-
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+#textbar:hover{
+		border:solid 1px #b0b0b0;
+		border-top:solid 1px #b0b0b0;
+}
+#textbar:focus{
+	border:solid 1px #00aeef;
+	border-top:solid 1px #00aeef;
+	outline: none;
+}
+#search{
+	position: fixed;
+	top: 38%;
+	left: 46.7%;
+	transform: translate(-50%, -50%);
+	height: 29px;
+	width: 96px;
+	border:solid 1px #d9d9d9;
+	background: #eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
 }
 #footer{
 	
