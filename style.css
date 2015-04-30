@@ -39,7 +39,7 @@
 	vertical-align: middle;
 }
 /*end of navbar style*/
-
+/*begin content style*/
 #content{
 
 }
@@ -83,6 +83,37 @@
 	font-size: 11px;
 	font-weight: bold;
 }
+#lucky{
+	position: fixed;
+	top: 38%;
+	left: 53%;
+	transform: translate(-50%, -50%);
+	height: 29px;
+	width: 111px;
+	border:solid 1px #d9d9d9;
+	background: #eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+#search:hover{
+	border:solid 1px #c0c0c0;
+}
+#lucky:hover{
+	border:solid 1px #c0c0c0;
+}
+#mic{
+	position: fixed;
+	top: 33.5%;
+	left: 64%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	opacity: .7;
+}
+#mic:hover{
+	opacity: .85;
+}
+/*end of content style*/
 #footer{
 	
 }
